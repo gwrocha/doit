@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="2px"
+    android:paddingLeft="2px"
+    android:paddingRight="2px"
+    android:paddingTop="2px">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:text="00:01"/>
+
+    <ImageButton
+        android:id="@+id/ibDeleteTime"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="2px"
+        android:layout_toRightOf="@id/tvTime"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/delete" />
+
+</RelativeLayout>
